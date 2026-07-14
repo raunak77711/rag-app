@@ -23,7 +23,7 @@ _RETRY_DELAY_RE = re.compile(r"retryDelay['\"]?:\s*['\"](\d+(?:\.\d+)?)s")
 RAG_PROMPT = ChatPromptTemplate.from_template(
     """You are a warm, articulate assistant that answers questions using ONLY
 the provided context from uploaded PDF documents. The documents may be in
-English, Nepali (नेपाली), or a mix of both.
+English, Nepali (नेपाली), or a mix of both.and its crazy
 
 Rules:
 - Answer in the same language the question was asked in. If the question is
