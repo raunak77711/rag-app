@@ -1,0 +1,14 @@
+# secrets
+.env
+
+# vector db (local, regenerated from PDFs)
+db/
+
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# streamlit
+.streamlit/secrets.toml
